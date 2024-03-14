@@ -18,9 +18,14 @@ const reset = () => {
 rl.write('Continue the sequence!\n> 3.14');
 reset();
 
-input.on('keypress', c => {
+input.on('keypress', (c) => {
   rl.write(null, { ctrl: true, name: 'u' });
+  if ((c+'').match(/[^0-9rc]/)) {
+    return;
+  }
   if (c === 'r') {
+    rl.write(out);
+    rl.write('\n> ');
     reset();
     rl.write(out);
     return;
