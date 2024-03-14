@@ -1,5 +1,5 @@
 ## Pi Game
-Made for 2024 Pi 03/14/2024
+Made for 2024 Pi day
 
 ### how to run
 `node game.js`, or simply pi-game.
