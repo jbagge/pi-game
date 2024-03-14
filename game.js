@@ -10,6 +10,9 @@ const end = '\x1b[0m';
 
 const rl = readline.createInterface({ input, output });
 
+let timer;
+let count = 0;
+let mistakes = 0;
 let max_mistakes = 5;
 
 const write = (out, mistakes, max_mistakes) => {
@@ -21,14 +24,11 @@ const write = (out, mistakes, max_mistakes) => {
 const reset = () => {
   digits = pi.split('');
   out = digits.splice(0,4).join('');
+  mistakes = 0;
   write(out, 0, max_mistakes);
 }
 
 reset();
-
-let timer;
-let count = 0;
-let mistakes = 0;
 
 input.on('keypress', (c) => {
   if (timer) {
