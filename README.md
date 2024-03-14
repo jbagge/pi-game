@@ -2,8 +2,8 @@
 Made for 2024 Pi day
 
 ### how to run
-`node game.js`, or simply pi-game.
+`node game.js`, or `cd pi-game && npm link` to be able to run `pi-game` anywhere.
 
 
 ### usage
-You have to continue the sequence of digits, and you can use `c` to reveal the next 10 digits (incase you forgot), and they dissapear when you input a number. Or you can use `r` to reset the game, and start fresh
+You have to continue the sequence `3.14`, so start writing numbers. If you get a number wrong it will reveal the correct one and let you continue guessing, untill you get 5 numbers wrong, and then it will show the next 10 digits for 10 seconds before restarting.
