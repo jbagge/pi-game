@@ -6,4 +6,4 @@ Made for 2024 Pi 03/14/2024
 
 
 ### usage
-You have to continue the sequence of digits, and you can use ´c´ to reveal the next 10 digits (incase you forgot), and they dissapear when you input a number. Or you can use `r` to reset the game, and start fresh
+You have to continue the sequence of digits, and you can use `c` to reveal the next 10 digits (incase you forgot), and they dissapear when you input a number. Or you can use `r` to reset the game, and start fresh
