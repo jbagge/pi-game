@@ -1,0 +1,14 @@
+{
+  "name": "pi-game",
+  "bin": "./game.js",
+  "version": "1.0.0",
+  "description": "terminal game for memorizing digits of pi",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pi"
+  ],
+  "author": "JBagge",
+}
